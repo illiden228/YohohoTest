@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f96b009-0c74-4baf-9fa5-d40b4ec946dc" name="Changes" comment="add leoecs">
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    <list default="true" id="6f96b009-0c74-4baf-9fa5-d40b4ec946dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.YohohoTest.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YohohoTest.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697549756905</updated>
-      <workItem from="1697549759175" duration="1250000" />
+      <workItem from="1697549759175" duration="2244000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <option name="closed" value="true" />
@@ -79,7 +79,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697551796466</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add sprites">
+      <option name="closed" value="true" />
+      <created>1697551909748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697551909748</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change project unity version">
+      <option name="closed" value="true" />
+      <created>1697552199847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697552199847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +106,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init project" />
     <MESSAGE value="add leoecs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add leoecs" />
+    <MESSAGE value="add sprites" />
+    <MESSAGE value="change project unity version" />
+    <option name="LAST_COMMIT_MESSAGE" value="change project unity version" />
   </component>
 </project>
