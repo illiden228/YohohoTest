@@ -42,15 +42,33 @@
   </PropertyGroup>
   <ItemGroup>
      <Folder Include="Assets" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsVehicles" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsVehiclesLand" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsPropsInterior" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsEnvironmentsUrban" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsCharactersHumanoids" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsCharacters" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsEnvironmentsSci-Fi" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsEnvironmentsFantasy" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsEnvironments" />
+     <Folder Include="Assets\_Downloaded" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsEnvironmentsIndustrial" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\_Downloaded\Synty Studios" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsProps" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsCharactersAnimals" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsCharactersAnimalsMammals" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsEnvironmentsDungeons" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsVehiclesSpace" />
+     <Folder Include="Assets\_Downloaded\Synty Studios\3D ModelsCharactersHumanoidsHumans" />
      <Reference Include="UnityEngine">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
