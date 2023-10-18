@@ -1,23 +1,38 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using DefaultNamespace;
+using GameLogic;
+using GameView.View;
 using UnityEngine;
 
 public class Root : MonoBehaviour
 {
     [SerializeField] private Transform _player;
+    [SerializeField] private Transform _itemSpawner;
+    [SerializeField] private Transform _itemReciever;
     [SerializeField] private Joystick _joystick;
     [SerializeField] private GameSettings _settings;
-    private LogicStartup _startup;
+    [SerializeField] private ItemSpawnerView _spawnerView;
+    [SerializeField] private ItemRecieverView _recieverView;
+    [SerializeField] private PlayerItemView _playerView;
+    private EcsStartup _startup;
     
     private void Awake()
     {
-        _startup = new LogicStartup(new LogicStartup.Ctx
+        GameStartData startData = new GameStartData
+        {
+            StartPosition = _player.position,
+            StartItemSpawnerPosition = _itemSpawner.position,
+            StartItemRecieverPosition = _itemReciever.position
+        };
+        
+        _startup = new EcsStartup(new EcsStartup.Ctx
         {
             playerTransform = _player,
             joystickInput = _joystick,
-            settings = _settings
+            settings = _settings,
+            gameStartData = startData,
+            spawnerView = _spawnerView,
+            recieverView = _recieverView,
+            playerView = _playerView
         });
     }
 

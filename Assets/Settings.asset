@@ -13,3 +13,8 @@ MonoBehaviour:
   m_Name: Settings
   m_EditorClassIdentifier: 
   _moveSpeed: 3
+  _itemSpawnCooldown: 2
+  _playerStackMaxCount: 3
+  _itemSpawnerStackMaxCount: 10
+  _itemRecieverStackMaxCount: 20
+  _interactRadius: 2
